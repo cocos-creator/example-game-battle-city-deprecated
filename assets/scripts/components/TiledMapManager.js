@@ -8,7 +8,7 @@
 //  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
 //  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 var NodePoolManager = require("./NodePoolManager");
-var GameEnum = require("./gameData/GameEnum");
+var GameEnum = require("../gameData/GameEnum");
 var GameConst = require("../gameData/GameConst");
 cc.Class({
     extends: cc.Component,
